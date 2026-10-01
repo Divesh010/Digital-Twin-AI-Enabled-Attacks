@@ -1,0 +1,9 @@
+university_id: "bennett_uni"
+model_version: "v1.0.0"
+campus_file: "campus.yaml"
+schedules_file: "schedules.yaml"
+physics_file: "physics.yaml"
+simulation_file: "simulation.yaml"
+scenarios_file: "scenarios.yaml"
+calibration_file: "calibration.yaml"
+

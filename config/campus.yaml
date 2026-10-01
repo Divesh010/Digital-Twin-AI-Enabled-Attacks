@@ -1,0 +1,256 @@
+id: main_campus
+buildings:
+- id: academic_block
+  floors:
+  - id: floor_1
+    rooms:
+    - id: A101
+      capacity: 60
+      volume_m3: 150.0
+      schedule_id: weekday_class
+      co2:
+        generation_rate_m3_s_person: 5.0e-06
+        ventilation_rate_m3_s: 0.1
+      temperature:
+        thermal_mass_j_c: 1200000.0
+        thermal_resistance_c_w: 0.02
+        heat_per_person_w: 100.0
+      hvac:
+        cooling_capacity_kw: 10.0
+        cop: 3.0
+        setpoint_c: 24.0
+      power:
+        base_load_kw: 0.2
+        lighting_capacity_kw: 1.2
+    - id: A102
+      capacity: 30
+      volume_m3: 75.0
+      schedule_id: weekday_class
+      co2:
+        generation_rate_m3_s_person: 5.0e-06
+        ventilation_rate_m3_s: 0.05
+      temperature:
+        thermal_mass_j_c: 600000.0
+        thermal_resistance_c_w: 0.02
+        heat_per_person_w: 100.0
+      hvac:
+        cooling_capacity_kw: 5.0
+        cop: 3.0
+        setpoint_c: 24.0
+      power:
+        base_load_kw: 0.1
+        lighting_capacity_kw: 0.6
+    - id: A103
+      capacity: 30
+      volume_m3: 75.0
+      schedule_id: weekday_class
+      co2:
+        generation_rate_m3_s_person: 5.0e-06
+        ventilation_rate_m3_s: 0.05
+      temperature:
+        thermal_mass_j_c: 600000.0
+        thermal_resistance_c_w: 0.02
+        heat_per_person_w: 100.0
+      hvac:
+        cooling_capacity_kw: 5.0
+        cop: 3.0
+        setpoint_c: 24.0
+      power:
+        base_load_kw: 0.1
+        lighting_capacity_kw: 0.6
+  - id: floor_2
+    rooms:
+    - id: A201
+      capacity: 60
+      volume_m3: 150.0
+      schedule_id: weekday_class
+      co2:
+        generation_rate_m3_s_person: 5.0e-06
+        ventilation_rate_m3_s: 0.1
+      temperature:
+        thermal_mass_j_c: 1200000.0
+        thermal_resistance_c_w: 0.02
+        heat_per_person_w: 100.0
+      hvac:
+        cooling_capacity_kw: 10.0
+        cop: 3.0
+        setpoint_c: 24.0
+      power:
+        base_load_kw: 0.2
+        lighting_capacity_kw: 1.2
+    - id: A202
+      capacity: 30
+      volume_m3: 75.0
+      schedule_id: weekday_class
+      co2:
+        generation_rate_m3_s_person: 5.0e-06
+        ventilation_rate_m3_s: 0.05
+      temperature:
+        thermal_mass_j_c: 600000.0
+        thermal_resistance_c_w: 0.02
+        heat_per_person_w: 100.0
+      hvac:
+        cooling_capacity_kw: 5.0
+        cop: 3.0
+        setpoint_c: 24.0
+      power:
+        base_load_kw: 0.1
+        lighting_capacity_kw: 0.6
+    - id: A203
+      capacity: 30
+      volume_m3: 75.0
+      schedule_id: weekday_class
+      co2:
+        generation_rate_m3_s_person: 5.0e-06
+        ventilation_rate_m3_s: 0.05
+      temperature:
+        thermal_mass_j_c: 600000.0
+        thermal_resistance_c_w: 0.02
+        heat_per_person_w: 100.0
+      hvac:
+        cooling_capacity_kw: 5.0
+        cop: 3.0
+        setpoint_c: 24.0
+      power:
+        base_load_kw: 0.1
+        lighting_capacity_kw: 0.6
+- id: library_block
+  floors:
+  - id: floor_1
+    rooms:
+    - id: L101
+      capacity: 100
+      volume_m3: 250.0
+      schedule_id: weekday_class
+      co2:
+        generation_rate_m3_s_person: 5.0e-06
+        ventilation_rate_m3_s: 0.2
+      temperature:
+        thermal_mass_j_c: 2000000.0
+        thermal_resistance_c_w: 0.01
+        heat_per_person_w: 100.0
+      hvac:
+        cooling_capacity_kw: 20.0
+        cop: 3.0
+        setpoint_c: 24.0
+      power:
+        base_load_kw: 0.5
+        lighting_capacity_kw: 2.0
+    - id: L102
+      capacity: 20
+      volume_m3: 50.0
+      schedule_id: weekday_class
+      co2:
+        generation_rate_m3_s_person: 5.0e-06
+        ventilation_rate_m3_s: 0.03
+      temperature:
+        thermal_mass_j_c: 400000.0
+        thermal_resistance_c_w: 0.03
+        heat_per_person_w: 100.0
+      hvac:
+        cooling_capacity_kw: 4.0
+        cop: 3.0
+        setpoint_c: 24.0
+      power:
+        base_load_kw: 0.1
+        lighting_capacity_kw: 0.4
+    - id: L103
+      capacity: 20
+      volume_m3: 50.0
+      schedule_id: weekday_class
+      co2:
+        generation_rate_m3_s_person: 5.0e-06
+        ventilation_rate_m3_s: 0.03
+      temperature:
+        thermal_mass_j_c: 400000.0
+        thermal_resistance_c_w: 0.03
+        heat_per_person_w: 100.0
+      hvac:
+        cooling_capacity_kw: 4.0
+        cop: 3.0
+        setpoint_c: 24.0
+      power:
+        base_load_kw: 0.1
+        lighting_capacity_kw: 0.4
+  - id: floor_2
+    rooms:
+    - id: L201
+      capacity: 100
+      volume_m3: 250.0
+      schedule_id: weekday_class
+      co2:
+        generation_rate_m3_s_person: 5.0e-06
+        ventilation_rate_m3_s: 0.2
+      temperature:
+        thermal_mass_j_c: 2000000.0
+        thermal_resistance_c_w: 0.01
+        heat_per_person_w: 100.0
+      hvac:
+        cooling_capacity_kw: 20.0
+        cop: 3.0
+        setpoint_c: 24.0
+      power:
+        base_load_kw: 0.5
+        lighting_capacity_kw: 2.0
+    - id: L202
+      capacity: 20
+      volume_m3: 50.0
+      schedule_id: weekday_class
+      co2:
+        generation_rate_m3_s_person: 5.0e-06
+        ventilation_rate_m3_s: 0.03
+      temperature:
+        thermal_mass_j_c: 400000.0
+        thermal_resistance_c_w: 0.03
+        heat_per_person_w: 100.0
+      hvac:
+        cooling_capacity_kw: 4.0
+        cop: 3.0
+        setpoint_c: 24.0
+      power:
+        base_load_kw: 0.1
+        lighting_capacity_kw: 0.4
+    - id: L203
+      capacity: 20
+      volume_m3: 50.0
+      schedule_id: weekday_class
+      co2:
+        generation_rate_m3_s_person: 5.0e-06
+        ventilation_rate_m3_s: 0.03
+      temperature:
+        thermal_mass_j_c: 400000.0
+        thermal_resistance_c_w: 0.03
+        heat_per_person_w: 100.0
+      hvac:
+        cooling_capacity_kw: 4.0
+        cop: 3.0
+        setpoint_c: 24.0
+      power:
+        base_load_kw: 0.1
+        lighting_capacity_kw: 0.4
+- id: science_block
+  floors:
+  - id: floor_1
+    rooms:
+    - id: S101
+      capacity: 60
+      volume_m3: 150.0
+      schedule_id: weekday_class
+      co2:
+        generation_rate_m3_s_person: 5.0e-06
+        ventilation_rate_m3_s: 0.1
+      temperature:
+        thermal_mass_j_c: 1200000.0
+        thermal_resistance_c_w: 0.02
+        heat_per_person_w: 100.0
+      hvac:
+        cooling_capacity_kw: 10.0
+        cop: 3.0
+        setpoint_c: 24.0
+      power:
+        base_load_kw: 0.2
+        lighting_capacity_kw: 1.2
+  - id: floor_2
+    rooms: []
+  - id: floor_3
+    rooms: []

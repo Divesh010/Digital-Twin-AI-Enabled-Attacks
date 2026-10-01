@@ -1,0 +1,33 @@
+- attack_id: "FDI_OFFSET_CO2"
+  enabled: true
+  target_location: "bennett_uni.main_campus.academic_block.floor_1.A101"
+  target_variable: "reported_co2_ppm"
+  start_time: "2026-09-02T10:00:00+05:30"
+  end_time: "2026-09-02T12:00:00+05:30"
+  random_seed: 42
+  parameters:
+    attack_type: "OFFSET"
+    offset_value: -500.0
+
+- attack_id: "FDI_DRIP_POWER"
+  enabled: true
+  target_location: "bennett_uni.main_campus.academic_block.floor_1.A102"
+  target_variable: "reported_power_kw"
+  start_time: "2026-09-03T14:00:00+05:30"
+  end_time: "2026-09-03T18:00:00+05:30"
+  random_seed: 42
+  parameters:
+    attack_type: "SLOW_DRIP"
+    initial_offset: 0.0
+    ramp_rate_per_second: 0.0005
+
+- attack_id: "FDI_REPLAY_TEMP"
+  enabled: true
+  target_location: "bennett_uni.main_campus.academic_block.floor_1.A103"
+  target_variable: "reported_temperature_c"
+  start_time: "2026-09-04T08:00:00+05:30"
+  end_time: "2026-09-04T12:00:00+05:30"
+  random_seed: 42
+  parameters:
+    attack_type: "REPLAY"
+    replay_window_seconds: 86400

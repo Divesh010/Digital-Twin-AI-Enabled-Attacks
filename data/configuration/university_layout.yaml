@@ -1,0 +1,8 @@
+university_id: bennett_uni
+university_name: Bennett University
+campus_id: main_campus
+campus_name: Main Campus
+buildings:
+- id: science_block
+  name: Science Block
+  floors: 3

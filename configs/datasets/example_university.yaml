@@ -1,0 +1,23 @@
+# Example Dataset Mapping Configuration
+# Maps custom university dataset columns to canonical Digital Twin telemetry schema
+
+timestamp: "Time_Local"           # Requires pd.to_datetime parseable string
+university_id: "__STATIC__ExampleUniversity"
+campus_id: "__STATIC__MainCampus"
+building_id: "Bldg_Name"          # Name of column containing building names
+floor_id: "__STATIC__Floor1"      # If dataset doesn't include floor, static assignment works
+room_id: "Room_ID"                # Must uniquely identify the room within the building
+
+# --- Telemetry Mapping ---
+# Maps sensor signals to canonical reported variables.
+# Only map what is actually present in the dataset.
+
+energy_kwh: "Electricity_Meter_kWh" # Energy interval readings
+delta_t_hours: 0.08333333         # E.g. 5 minute intervals (5/60). Used to convert Energy to Power (kW)
+
+# Alternatively, if direct power in kW is available, use:
+# power_kw: "Power_Demand_kW"
+
+temperature_c: "Thermostat_Temp_C"  
+co2_ppm: "AirQuality_CO2"           
+occupancy: "WiFi_Connections"       # Proxy for occupancy

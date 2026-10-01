@@ -1,0 +1,31 @@
+{
+  "name": "smart-campus-digital-twin",
+  "version": "1.0.0",
+  "description": "Desktop wrapper for Smart Campus Digital Twin",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder build --win"
+  },
+  "build": {
+    "appId": "com.bennett.smartcampus",
+    "productName": "SmartCampusDigitalTwin",
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico"
+    },
+    "directories": {
+      "output": "dist"
+    }
+  },
+  "dependencies": {
+    "tree-kill": "^1.2.2"
+  },
+  "devDependencies": {
+    "electron": "^34.5.8",
+    "electron-builder": "^25.0.0"
+  },
+  "allowScripts": {
+    "electron@34.5.8": true
+  }
+}

@@ -1,0 +1,3 @@
+- id: summer_heat
+  occupancy_multiplier: 1.0
+  hvac_setpoint_offset_c: 0.0

@@ -1,0 +1,7 @@
+enabled: true
+mode: "local"
+broker_host: "localhost"
+broker_port: 1883
+client_id: "dt_simulator_node"
+topic_prefix: "dt"
+qos: 1
